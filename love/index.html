@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>520——送给亲爱的你</title>
+
+    <style>
+        /*重置默认样式 */ 
+        body,h1,h2,h3,h4,h5,h6,p,ul,li {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background-color: brown;
+        }
+        
+        p {
+            margin: 300px auto;
+            text-align: center;
+            color: #31dba0;
+            font-size: 20px;
+            margin-top：500px;
+        }
+        
+        .wrap1,.wrap2 {
+            display: table;
+            height: 200px;
+            margin: 100 auto;
+            left: 50%;
+            position: fixed;
+            top: 240px;
+            margin-left: -130px;
+        }
+        
+        .box {
+            float: left;
+            width: 25px;
+            height: 25px;
+            background-color: #fff;
+            margin-bottom: 2px;
+            margin-right: 2px;
+            border-radius: 3px;
+            transform: translateY(-300px);
+            opacity: 0;
+            animation: love 12s infinite;
+        }
+        /* 爱心动画 */
+        @keyframes love {
+            0% {
+                opacity: 0;
+                transform: translateY(-300px);
+            }
+            40% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            65% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            95% {
+                opacity: 0;
+                transform: translateY(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(0);
+            }
+        }
+        
+        .wrap1 .delay1 {
+            animation-delay: .1s;
+        }
+        
+        .wrap1 .delay2 {
+            animation-delay: .2s;
+        }
+        
+        .wrap1 .delay3 {
+            animation-delay: .3s;
+        }
+        
+        .wrap1 .delay4 {
+            animation-delay: .5s;
+        }
+        
+        .wrap1 .delay5 {
+            animation-delay: .7s;
+        }
+        
+        .wrap1 .delay6 {
+            animation-delay: .9s;
+        }
+
+
+
+        .wrap2 .delay1 {
+            animation-delay: 6.1s;
+        }
+        
+        .wrap2 .delay2 {
+            animation-delay: 6.2s;
+        }
+        
+        .wrap2 .delay3 {
+            animation-delay: 6.3s;
+        }
+        
+        .wrap2 .delay4 {
+            animation-delay: 6.5s;
+        }
+        
+        .wrap2 .delay5 {
+            animation-delay: 6.7s;
+        }
+        
+        .wrap2 .delay6 {
+            animation-delay: 6.9s;
+        }
+        .clear {
+            clear: both;
+        }
+        
+        .transparent {
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 是用两个爱心，达到视觉上联系的效果 -->
+    <div class="wrap1">
+        <!-- 第一行 -->
+        <div class="box transparent"></div>
+        <div class="box delay1"></div>
+        <div class="box delay2"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay2"></div>
+        <div class="box delay1"></div>
+        <div class="box transparent"></div>
+        
+        <!-- 第二行 -->
+        <div class="box clear delay4"></div>
+        <div class="box delay1"></div>
+        <div class="box delay3"></div>
+        <div class="box delay2"></div>
+        <div class="box transparent"></div>
+        <div class="box delay3"></div>
+        <div class="box delay4"></div>
+        <div class="box delay1"></div>
+        <div class="box delay3"></div>
+        <!-- 第三行 -->
+        <div class="box clear delay5"></div>
+        <div class="box delay2"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay5"></div>
+        <div class="box delay6"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay2"></div>
+        <!-- 第四行 -->
+        <div class="box clear  delay5"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay6"></div>
+        <div class="box delay2"></div>
+        <div class="box delay4"></div>
+        <div class="box delay1"></div>
+        <div class="box delay3"></div>
+        <div class="box delay5"></div>
+        <!-- 第五行 -->
+        <div class="box clear  transparent"></div>
+        <div class="box delay6"></div>
+        <div class="box delay2"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay3"></div>
+        <div class="box delay2"></div>
+        <div class="box transparent"></div>
+        <!-- 第六行 -->
+        <div class="box clear transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay2"></div>
+        <div class="box delay6"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <!-- 第七行 -->
+        <div class="box clear transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay6"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <!-- 第九行 -->
+        <div class="box clear transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay6"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+    </div>
+    <div class="wrap2">
+        <!-- 第一行 -->
+        <div class="box transparent"></div>
+        <div class="box delay1"></div>
+        <div class="box delay2"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay2"></div>
+        <div class="box delay1"></div>
+        <div class="box transparent"></div>
+        
+        <!-- 第二行 -->
+        <div class="box clear delay4"></div>
+        <div class="box delay1"></div>
+        <div class="box delay3"></div>
+        <div class="box delay2"></div>
+        <div class="box transparent"></div>
+        <div class="box delay3"></div>
+        <div class="box delay4"></div>
+        <div class="box delay1"></div>
+        <div class="box delay3"></div>
+        <!-- 第三行 -->
+        <div class="box clear delay5"></div>
+        <div class="box delay2"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay5"></div>
+        <div class="box delay6"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay2"></div>
+        <!-- 第四行 -->
+        <div class="box clear  delay5"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay6"></div>
+        <div class="box delay2"></div>
+        <div class="box delay4"></div>
+        <div class="box delay1"></div>
+        <div class="box delay3"></div>
+        <div class="box delay5"></div>
+        <!-- 第五行 -->
+        <div class="box clear  transparent"></div>
+        <div class="box delay6"></div>
+        <div class="box delay2"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay3"></div>
+        <div class="box delay2"></div>
+        <div class="box transparent"></div>
+        <!-- 第六行 -->
+        <div class="box clear transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay4"></div>
+        <div class="box delay2"></div>
+        <div class="box delay6"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <!-- 第七行 -->
+        <div class="box clear transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay5"></div>
+        <div class="box delay1"></div>
+        <div class="box delay6"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <!-- 第九行 -->
+        <div class="box clear transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box delay6"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+        <div class="box transparent"></div>
+    </div>
+    <p>送给亲爱的你~</p>
+</body>
+
+</html>
